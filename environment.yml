@@ -47,13 +47,13 @@ dependencies:
   # ── pip-only packages ─────────────────────────────────────────────────────
   - pip
   - pip:
-    # Materials science stack
-    # Versions pinned for Python 3.10 compatibility
-    # emmet-core>=0.84 uses NotRequired from typing (requires Python 3.11+)
-    - pymatgen>=2024.1.1
+    # Materials science stack — fully pinned for Python 3.10 compatibility
+    # These versions are tested to work together without import errors
+    - pymatgen==2024.2.8
     - emmet-core==0.83.6
     - mp-api==0.41.2
-    - matminer>=0.9.2
+    - matminer==0.9.2
+    - phonopy>=2.20          # required by matminer featurizers
     # crystal-toolkit removed — incompatible with Python 3.10
 
     # NLP / literature mining (Week 9)
