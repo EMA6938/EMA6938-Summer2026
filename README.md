@@ -20,7 +20,7 @@
 ## 🗂️ Repository structure
 
 ```
-mtse6850-[semester]-[year]/
+EMA6938-Summer2026/
 │
 ├── README.md                  ← You are here
 ├── environment.yml            ← Conda environment (install first)
@@ -77,8 +77,8 @@ Download and install **Anaconda (Python 3.10+)** from [anaconda.com/download](ht
 ### Step 2 — Clone this repository
 
 ```bash
-git clone https://github.com/[your-org]/mtse6850-[semester]-[year].git
-cd mtse6850-[semester]-[year]
+git clone https://github.com/EMA6938/EMA6938-Summer2026.git
+cd EMA6938-Summer2026
 ```
 
 Or download the ZIP from GitHub → Code → Download ZIP and extract it.
