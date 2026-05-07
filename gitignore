@@ -1,0 +1,47 @@
+# ── API keys & secrets ────────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data files (large) ────────────────────────────────────────────────────────
+# Add specific data files to the repo intentionally — don't auto-ignore all CSVs
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor files ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Student submissions (never commit to course repo) ─────────────────────────
+submissions/
+grades/
+feedback/
+
+# ── Conda environment (environment.yml is tracked; the env folder is not) ─────
+/envs/
