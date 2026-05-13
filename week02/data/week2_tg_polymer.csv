@@ -1,0 +1,316 @@
+polymer_id,monomer_type,Mn_g_mol,Tg_K,lab_id,year
+P0207,polyimide,25300.0,524.7,GT-PolyLab,2021
+P0034,polystyrene,60600.0,359.2,CMU-MatSci,2021
+P0164,polycarbonate,21700.0,401.3,CMU-MatSci,2020
+P0079,polyethylene,56300.0,203.2,CMU-MatSci,2020
+P0094,polyethylene,86700.0,202.6,MIT-ChemE,2022
+P0230,polyimide,45400.0,606.4,GT-PolyLab,2022
+P0026,polystyrene,74400.0,52.3,GT-PolyLab,2022
+P0010,polystyrene,59400.0,383.2,CMU-MatSci,2021
+P0064,poly(methyl methacrylate),50300.0,393.7,GT-PolyLab,2023
+P0083,polyethylene,7100.0,203.9,UF-MatLab,2023
+P0168,polycarbonate,22300.0,429.5,MIT-ChemE,2023
+P0194,polycarbonate,32200.0,399.8,CMU-MatSci,2021
+P0158,polycarbonate,21300.0,384.4,MIT-ChemE,2022
+P0061,poly(methyl methacrylate),124900.0,379.9,CMU-MatSci,2020
+P0146,poly(lactic acid),94900.0,330.2,UF-MatLab,2019
+P0199,polyimide,36500.0,573.6,CMU-MatSci,2023
+P0214,polyimide,49800.0,569.2,UF-MatLab,2019
+P0280,poly(ethylene oxide),16800.0,206.1,GT-PolyLab,2019
+P0255,poly(vinyl alcohol),29900.0,342.8,GT-PolyLab,2021
+P0043,poly(methyl methacrylate),49400.0,363.8,GT-PolyLab,2021
+P0006,polystyrene,45900.0,374.8,UF-MatLab,2019
+P0240,poly(vinyl alcohol),20800.0,370.1,MIT-ChemE,2022
+P0228,polyimide,42800.0,610.0,UF-MatLab,2021
+P0165,polycarbonate,22700.0,416.4,CMU-MatSci,2023
+P0296,poly(ethylene oxide),11000.0,197.9,MIT-ChemE,2019
+P0275,poly(ethylene oxide),15400.0,203.1,CMU-MatSci,2023
+P0120,poly(lactic acid),82100.0,335.8,MIT-ChemE,2023
+P0300,poly(ethylene oxide),17400.0,190.3,CMU-MatSci,2022
+P0077,poly(methyl methacrylate),73700.0,395.5,GT-PolyLab,2021
+P0149,poly(lactic acid),84100.0,346.3,UF-MatLab,2020
+P0308,poly(ethylene oxide),21000.0,196.6,UF-MatLab,2023
+P0153,poly(lactic acid),36000.0,324.6,CMU-MatSci,2021
+P0058,poly(methyl methacrylate),49600.0,362.7,GT-PolyLab,2019
+P0276,poly(ethylene oxide),22000.0,202.1,MIT-ChemE,2022
+P0281,poly(ethylene oxide),22000.0,208.7,UF-MatLab,2023
+P0298,poly(ethylene oxide),,206.5,UF-MatLab,2021
+P0114,polyethylene,,196.7,CMU-MatSci,2022
+P0004,polystyrene,113200.0,363.0,GT-PolyLab,2019
+P0311,poly(ethylene oxide),26800.0,216.0,GT-PolyLab,2021
+P0112,polyethylene,70300.0,199.4,MIT-ChemE,2021
+P0220,polyimide,32500.0,614.1,MIT-ChemE,2021
+P0105,polyethylene,47300.0,196.3,MIT-ChemE,2021
+P0085,polyethylene,28800.0,188.9,CMU-MatSci,2022
+P0078,poly(methyl methacrylate),119200.0,364.7,MIT-ChemE,2022
+P0047,poly(methyl methacrylate),,368.1,GT-PolyLab,2019
+P0046,poly(methyl methacrylate),109000.0,403.5,UF-MatLab,2020
+P0018,polystyrene,56200.0,368.9,CMU-MatSci,2019
+P0181,polycarbonate,18200.0,421.6,UF-MatLab,2020
+P0184,polycarbonate,27900.0,415.7,MIT-ChemE,2023
+P0141,poly(lactic acid),60200.0,320.0,GT-PolyLab,2023
+P0025,polystyrene,72200.0,381.8,GT-PolyLab,2022
+P0074,poly(methyl methacrylate),49100.0,398.7,UF-MatLab,2021
+P0205,polyimide,42800.0,600.3,MIT-ChemE,2020
+P0109,polyethylene,54600.0,184.7,UF-MatLab,2021
+P0091,polyethylene,92600.0,87.1,CMU-MatSci,2019
+P0117,polyethylene,35600.0,217.3,UF-MatLab,2023
+P0305,poly(ethylene oxide),20300.0,207.8,MIT-ChemE,2020
+P0008,polystyrene,75500.0,386.1,MIT-ChemE,2021
+P0293,poly(ethylene oxide),5000.0,201.3,MIT-ChemE,2019
+P0185,polycarbonate,22700.0,408.7,MIT-ChemE,2021
+P0270,poly(vinyl alcohol),18600.0,349.7,GT-PolyLab,2022
+P0174,polycarbonate,36500.0,408.4,MIT-ChemE,2021
+P0297,poly(ethylene oxide),17000.0,211.8,MIT-ChemE,2021
+P0222,polyimide,46500.0,566.3,CMU-MatSci,2023
+P0133,poly(lactic acid),75000.0,335.0,GT-PolyLab,2022
+P0156,poly(lactic acid),48100.0,324.1,CMU-MatSci,2021
+P0095,polyethylene,108100.0,200.5,MIT-ChemE,2019
+P0246,poly(vinyl alcohol),40500.0,330.1,MIT-ChemE,2023
+P0076,poly(methyl methacrylate),62800.0,373.4,MIT-ChemE,2023
+P0148,poly(lactic acid),29900.0,343.9,CMU-MatSci,2020
+P0234,polyimide,42900.0,555.6,UF-MatLab,2019
+P0263,poly(vinyl alcohol),41300.0,376.7,CMU-MatSci,2020
+P0209,polyimide,61900.0,623.0,UF-MatLab,2021
+P0115,polyethylene,51100.0,213.0,MIT-ChemE,2021
+P0144,poly(lactic acid),72600.0,326.2,MIT-ChemE,2021
+P0212,polyimide,34900.0,566.8,CMU-MatSci,2020
+P0233,polyimide,48600.0,579.4,CMU-MatSci,2021
+P0262,poly(vinyl alcohol),29000.0,364.6,CMU-MatSci,2023
+P0060,poly(methyl methacrylate),96000.0,396.9,UF-MatLab,2020
+P0110,polyethylene,38900.0,208.6,UF-MatLab,2021
+P0007,polystyrene,88800.0,376.3,CMU-MatSci,2022
+P0299,poly(ethylene oxide),12800.0,190.9,UF-MatLab,2020
+P0031,polystyrene,149200.0,370.1,UF-MatLab,2021
+P0023,polystyrene,121700.0,368.0,GT-PolyLab,2020
+P0268,poly(vinyl alcohol),32800.0,331.2,MIT-ChemE,2022
+P0057,poly(methyl methacrylate),38200.0,363.3,CMU-MatSci,2019
+P0256,poly(vinyl alcohol),27900.0,388.7,UF-MatLab,2020
+P0200,polyimide,27100.0,578.4,CMU-MatSci,2022
+P0250,poly(vinyl alcohol),27800.0,365.7,UF-MatLab,2023
+P0183,polycarbonate,33700.0,438.8,GT-PolyLab,2019
+P0254,poly(vinyl alcohol),19600.0,353.5,MIT-ChemE,2019
+P0295,poly(ethylene oxide),32500.0,208.2,UF-MatLab,2023
+P0145,poly(lactic acid),68300.0,340.5,CMU-MatSci,2021
+P0177,polycarbonate,24500.0,417.7,UF-MatLab,2020
+P0102,polyethylene,65500.0,197.6,CMU-MatSci,2022
+P0257,poly(vinyl alcohol),17800.0,384.8,GT-PolyLab,2022
+P0067,poly(methyl methacrylate),54700.0,391.3,GT-PolyLab,2019
+P0127,poly(lactic acid),63500.0,334.4,GT-PolyLab,2019
+P0019,polystyrene,111400.0,395.4,GT-PolyLab,2019
+P0180,polycarbonate,28400.0,437.5,GT-PolyLab,2019
+P0006,polystyrene,45900.0,355.8,UF-MatLab,2019
+P0020,polystyrene,83500.0,360.0,GT-PolyLab,2023
+P0155,poly(lactic acid),36000.0,318.2,CMU-MatSci,2020
+P0093,polyethylene,28100.0,195.3,MIT-ChemE,2019
+P0080,polyethylene,74100.0,199.0,GT-PolyLab,2021
+P0226,polyimide,46500.0,576.3,GT-PolyLab,2022
+P0302,poly(ethylene oxide),34700.0,204.2,MIT-ChemE,2023
+P0073,poly(methyl methacrylate),71000.0,397.8,UF-MatLab,2023
+P0097,polyethylene,42600.0,199.0,MIT-ChemE,2019
+P0016,polystyrene,59200.0,365.9,MIT-ChemE,2022
+P0011,polystyrene,111400.0,374.0,CMU-MatSci,2019
+P0176,polycarbonate,29600.0,436.0,MIT-ChemE,2019
+P0125,poly(lactic acid),76000.0,337.6,UF-MatLab,2023
+P0098,polyethylene,56800.0,197.5,CMU-MatSci,2023
+P0069,poly(methyl methacrylate),59700.0,396.4,UF-MatLab,2022
+P0247,poly(vinyl alcohol),20200.0,359.5,MIT-ChemE,2021
+P0038,polystyrene,59800.0,366.6,GT-PolyLab,2022
+P0017,polystyrene,96100.0,112.4,MIT-ChemE,2020
+P0056,poly(methyl methacrylate),69400.0,372.5,UF-MatLab,2022
+P0224,polyimide,45400.0,585.3,GT-PolyLab,2023
+P0285,poly(ethylene oxide),31500.0,198.1,CMU-MatSci,2020
+P0068,poly(methyl methacrylate),64600.0,383.1,MIT-ChemE,2021
+P0119,poly(lactic acid),36300.0,338.2,UF-MatLab,2022
+P0173,polycarbonate,26800.0,439.5,GT-PolyLab,2020
+P0070,poly(methyl methacrylate),71500.0,380.2,CMU-MatSci,2019
+P0032,polystyrene,72800.0,353.9,MIT-ChemE,2020
+P0204,polyimide,30000.0,564.8,GT-PolyLab,2020
+P0166,polycarbonate,26500.0,421.2,GT-PolyLab,2021
+P0248,poly(vinyl alcohol),20900.0,372.0,GT-PolyLab,2019
+P0126,poly(lactic acid),63500.0,340.0,GT-PolyLab,2022
+P0178,polycarbonate,23600.0,436.8,CMU-MatSci,2023
+P0087,polyethylene,32500.0,202.6,UF-MatLab,2022
+P0266,poly(vinyl alcohol),20800.0,367.6,MIT-ChemE,2020
+P0198,polyimide,26100.0,564.2,GT-PolyLab,2021
+P0267,poly(vinyl alcohol),44600.0,363.1,CMU-MatSci,2022
+P0138,poly(lactic acid),47700.0,331.8,GT-PolyLab,2021
+P0227,polyimide,27600.0,565.2,GT-PolyLab,2019
+P0140,poly(lactic acid),72700.0,313.1,GT-PolyLab,2022
+P0203,polyimide,25900.0,562.3,GT-PolyLab,2023
+P0147,poly(lactic acid),56900.0,335.0,CMU-MatSci,2019
+P0245,poly(vinyl alcohol),,342.7,CMU-MatSci,2019
+P0130,poly(lactic acid),57800.0,338.3,GT-PolyLab,2023
+P0039,polystyrene,60300.0,375.4,MIT-ChemE,2021
+P0301,poly(ethylene oxide),31400.0,205.9,UF-MatLab,2023
+P0187,polycarbonate,22500.0,425.4,UF-MatLab,2021
+P0304,poly(ethylene oxide),35200.0,205.8,MIT-ChemE,2021
+P0113,polyethylene,53100.0,189.5,MIT-ChemE,2022
+P0186,polycarbonate,28600.0,414.6,GT-PolyLab,2020
+P0118,poly(lactic acid),68900.0,337.4,UF-MatLab,2020
+P0292,poly(ethylene oxide),29700.0,202.7,UF-MatLab,2023
+P0286,poly(ethylene oxide),10700.0,194.5,CMU-MatSci,2021
+P0182,polycarbonate,30300.0,423.1,GT-PolyLab,2019
+P0195,polycarbonate,19200.0,410.1,CMU-MatSci,2022
+P0197,polyimide,11100.0,602.0,CMU-MatSci,2020
+P0003,polystyrene,107500.0,381.1,GT-PolyLab,2023
+P0116,polyethylene,50000.0,205.8,UF-MatLab,2021
+P0159,polycarbonate,,413.5,GT-PolyLab,2022
+P0196,polyimide,44400.0,560.7,CMU-MatSci,2022
+P0121,poly(lactic acid),,318.9,MIT-ChemE,2022
+P0232,polyimide,24600.0,584.7,CMU-MatSci,2021
+P0273,poly(vinyl alcohol),30600.0,383.9,CMU-MatSci,2021
+P0128,poly(lactic acid),64100.0,340.6,GT-PolyLab,2019
+P0075,poly(methyl methacrylate),33100.0,375.8,UF-MatLab,2023
+P0030,polystyrene,97900.0,385.9,GT-PolyLab,2023
+P0084,polyethylene,46700.0,192.4,MIT-ChemE,2021
+P0261,poly(vinyl alcohol),19800.0,367.6,UF-MatLab,2020
+P0108,polyethylene,44700.0,217.3,UF-MatLab,2019
+P0169,polycarbonate,33500.0,424.1,GT-PolyLab,2021
+P0259,poly(vinyl alcohol),36900.0,344.2,UF-MatLab,2019
+P0134,poly(lactic acid),,341.2,CMU-MatSci,2021
+P0210,polyimide,20200.0,564.9,MIT-ChemE,2022
+P0238,poly(vinyl alcohol),6800.0,360.4,UF-MatLab,2019
+P0291,poly(ethylene oxide),19100.0,195.3,GT-PolyLab,2019
+P0066,poly(methyl methacrylate),81700.0,373.1,CMU-MatSci,2023
+P0219,polyimide,55300.0,587.0,MIT-ChemE,2022
+P0086,polyethylene,39400.0,211.9,UF-MatLab,2020
+P0235,poly(vinyl alcohol),7500.0,366.2,CMU-MatSci,2020
+P0160,polycarbonate,40500.0,449.0,CMU-MatSci,2022
+P0013,polystyrene,87000.0,382.5,GT-PolyLab,2021
+P0036,polystyrene,118900.0,375.1,GT-PolyLab,2023
+P0029,polystyrene,97400.0,366.1,UF-MatLab,2019
+P0171,polycarbonate,25100.0,411.7,GT-PolyLab,2021
+P0143,poly(lactic acid),72900.0,309.7,GT-PolyLab,2021
+P0211,polyimide,24600.0,534.3,UF-MatLab,2020
+P0132,poly(lactic acid),65800.0,331.2,MIT-ChemE,2022
+P0284,poly(ethylene oxide),16200.0,211.3,MIT-ChemE,2020
+P0052,poly(methyl methacrylate),51800.0,376.1,CMU-MatSci,2021
+P0096,polyethylene,26600.0,197.1,MIT-ChemE,2023
+P0229,polyimide,22900.0,569.5,GT-PolyLab,2019
+P0179,polycarbonate,18800.0,414.7,MIT-ChemE,2022
+P0243,poly(vinyl alcohol),27500.0,373.0,UF-MatLab,2023
+P0042,poly(methyl methacrylate),69000.0,372.0,GT-PolyLab,2023
+P0090,polyethylene,20700.0,209.3,MIT-ChemE,2023
+P0239,poly(vinyl alcohol),20400.0,369.7,CMU-MatSci,2019
+P0137,poly(lactic acid),,330.3,MIT-ChemE,2020
+P0027,polystyrene,101000.0,384.9,CMU-MatSci,2021
+P0309,poly(ethylene oxide),22900.0,197.3,UF-MatLab,2023
+P0142,poly(lactic acid),79900.0,318.2,UF-MatLab,2019
+P0221,polyimide,32400.0,576.4,CMU-MatSci,2021
+P0001,polystyrene,94100.0,382.8,CMU-MatSci,2022
+P0283,poly(ethylene oxide),10900.0,190.5,MIT-ChemE,2022
+P0287,poly(ethylene oxide),5000.0,205.5,UF-MatLab,2022
+P0101,polyethylene,45100.0,174.3,GT-PolyLab,2022
+P0193,polycarbonate,35900.0,410.6,CMU-MatSci,2022
+P0289,poly(ethylene oxide),20200.0,200.5,UF-MatLab,2020
+P0104,polyethylene,42500.0,203.0,UF-MatLab,2020
+P0172,polycarbonate,45800.0,430.8,UF-MatLab,2023
+P0099,polyethylene,84600.0,201.5,UF-MatLab,2023
+P0037,polystyrene,81600.0,383.4,UF-MatLab,2022
+P0062,poly(methyl methacrylate),147800.0,376.6,UF-MatLab,2021
+P0151,poly(lactic acid),61600.0,346.5,CMU-MatSci,2022
+P0048,poly(methyl methacrylate),,388.1,UF-MatLab,2022
+P0223,polyimide,49200.0,570.2,MIT-ChemE,2022
+P0272,poly(vinyl alcohol),34500.0,383.2,UF-MatLab,2021
+P0012,polystyrene,108300.0,377.3,GT-PolyLab,2022
+P0312,poly(ethylene oxide),14300.0,202.5,GT-PolyLab,2021
+P0201,polyimide,48600.0,560.6,MIT-ChemE,2021
+P0282,poly(ethylene oxide),22200.0,209.4,GT-PolyLab,2021
+P0028,polystyrene,96000.0,367.8,MIT-ChemE,2020
+P0241,poly(vinyl alcohol),28000.0,333.7,UF-MatLab,2019
+P0005,polystyrene,26500.0,376.5,GT-PolyLab,2019
+P0123,poly(lactic acid),51400.0,333.5,UF-MatLab,2022
+P0033,polystyrene,69600.0,356.0,MIT-ChemE,2020
+P0225,polyimide,19800.0,538.4,MIT-ChemE,2023
+P0163,polycarbonate,27800.0,425.6,MIT-ChemE,2021
+P0231,polyimide,30300.0,550.9,GT-PolyLab,2023
+P0269,poly(vinyl alcohol),37700.0,359.3,CMU-MatSci,2021
+P0139,poly(lactic acid),63000.0,341.3,MIT-ChemE,2022
+P0063,poly(methyl methacrylate),,381.4,MIT-ChemE,2022
+P0216,polyimide,18700.0,584.6,UF-MatLab,2020
+P0136,poly(lactic acid),82200.0,338.2,UF-MatLab,2023
+P0129,poly(lactic acid),47000.0,335.3,CMU-MatSci,2019
+P0306,poly(ethylene oxide),34000.0,213.6,GT-PolyLab,2020
+P0009,polystyrene,84500.0,376.4,MIT-ChemE,2019
+P0071,poly(methyl methacrylate),101600.0,363.3,MIT-ChemE,2019
+P0278,poly(ethylene oxide),15000.0,206.2,MIT-ChemE,2019
+P0065,poly(methyl methacrylate),21700.0,380.6,MIT-ChemE,2020
+P0045,poly(methyl methacrylate),80500.0,369.3,CMU-MatSci,2019
+P0015,polystyrene,99000.0,368.2,UF-MatLab,2020
+P0157,polycarbonate,16100.0,402.0,CMU-MatSci,2022
+P0041,poly(methyl methacrylate),115000.0,389.8,CMU-MatSci,2022
+P0251,poly(vinyl alcohol),36500.0,352.4,GT-PolyLab,2021
+P0124,poly(lactic acid),72200.0,328.3,UF-MatLab,2019
+P0290,poly(ethylene oxide),20200.0,212.6,MIT-ChemE,2023
+P0217,polyimide,46200.0,583.5,UF-MatLab,2021
+P0154,poly(lactic acid),41200.0,327.1,UF-MatLab,2021
+P0024,polystyrene,80400.0,375.4,CMU-MatSci,2023
+P0279,poly(ethylene oxide),22500.0,208.2,UF-MatLab,2020
+P0111,polyethylene,59400.0,196.7,GT-PolyLab,2021
+P0082,polyethylene,36900.0,215.7,GT-PolyLab,2022
+P0237,poly(vinyl alcohol),22200.0,362.2,UF-MatLab,2021
+P0208,polyimide,43000.0,605.2,CMU-MatSci,2022
+P0213,polyimide,33800.0,567.3,GT-PolyLab,2020
+P0040,poly(methyl methacrylate),75500.0,379.6,GT-PolyLab,2020
+P0288,poly(ethylene oxide),5100.0,206.7,UF-MatLab,2022
+P0249,poly(vinyl alcohol),35600.0,385.0,MIT-ChemE,2023
+P0252,poly(vinyl alcohol),29900.0,344.6,UF-MatLab,2022
+P0307,poly(ethylene oxide),19300.0,197.1,GT-PolyLab,2019
+P0202,polyimide,64000.0,582.4,CMU-MatSci,2020
+P0162,polycarbonate,,413.3,MIT-ChemE,2020
+P0044,poly(methyl methacrylate),79500.0,366.4,GT-PolyLab,2019
+P0218,polyimide,33100.0,543.1,GT-PolyLab,2022
+P0191,polycarbonate,9100.0,433.8,MIT-ChemE,2022
+P0260,poly(vinyl alcohol),26500.0,370.8,UF-MatLab,2021
+P0106,polyethylene,22500.0,182.4,UF-MatLab,2019
+P0054,poly(methyl methacrylate),40600.0,370.1,CMU-MatSci,2023
+P0002,polystyrene,53800.0,384.1,GT-PolyLab,2021
+P0050,poly(methyl methacrylate),45300.0,389.2,GT-PolyLab,2021
+P0081,polyethylene,35400.0,220.9,CMU-MatSci,2023
+P0206,polyimide,59300.0,552.2,CMU-MatSci,2023
+P0035,polystyrene,103500.0,380.5,MIT-ChemE,2019
+P0264,poly(vinyl alcohol),7200.0,367.5,MIT-ChemE,2022
+P0092,polyethylene,24300.0,188.9,CMU-MatSci,2022
+P0053,poly(methyl methacrylate),65300.0,377.5,GT-PolyLab,2019
+P0265,poly(vinyl alcohol),15000.0,369.1,UF-MatLab,2021
+P0242,poly(vinyl alcohol),41100.0,324.3,CMU-MatSci,2021
+P0014,polystyrene,118800.0,351.1,UF-MatLab,2020
+P0089,polyethylene,14800.0,182.6,MIT-ChemE,2022
+P0274,poly(ethylene oxide),18400.0,213.8,GT-PolyLab,2019
+P0167,polycarbonate,30000.0,419.0,MIT-ChemE,2022
+P0310,poly(ethylene oxide),45400.0,208.3,UF-MatLab,2022
+P0135,poly(lactic acid),58100.0,329.1,GT-PolyLab,2019
+P0303,poly(ethylene oxide),17300.0,205.2,MIT-ChemE,2020
+P0244,poly(vinyl alcohol),19700.0,375.8,GT-PolyLab,2019
+P0055,poly(methyl methacrylate),90900.0,383.4,UF-MatLab,2022
+P0051,poly(methyl methacrylate),59000.0,382.6,CMU-MatSci,2022
+P0175,polycarbonate,25700.0,409.3,CMU-MatSci,2021
+P0190,polycarbonate,22300.0,413.5,UF-MatLab,2022
+P0061,poly(methyl methacrylate),124900.0,364.6,CMU-MatSci,2020
+P0188,polycarbonate,32500.0,401.2,MIT-ChemE,2019
+P0170,polycarbonate,15900.0,428.0,GT-PolyLab,2023
+P0059,poly(methyl methacrylate),82800.0,380.1,MIT-ChemE,2023
+P0049,poly(methyl methacrylate),111600.0,367.2,CMU-MatSci,2019
+P0236,poly(vinyl alcohol),21700.0,355.2,UF-MatLab,2023
+P0253,poly(vinyl alcohol),37000.0,358.2,UF-MatLab,2020
+P0022,polystyrene,64600.0,347.8,GT-PolyLab,2022
+P0161,polycarbonate,33800.0,425.2,MIT-ChemE,2019
+P0277,poly(ethylene oxide),16000.0,213.3,GT-PolyLab,2021
+P0192,polycarbonate,13000.0,391.3,MIT-ChemE,2023
+P0294,poly(ethylene oxide),23200.0,205.6,GT-PolyLab,2020
+P0258,poly(vinyl alcohol),14400.0,375.0,CMU-MatSci,2023
+P0150,poly(lactic acid),53100.0,332.3,MIT-ChemE,2021
+P0131,poly(lactic acid),57700.0,326.0,MIT-ChemE,2021
+P0152,poly(lactic acid),79600.0,333.9,GT-PolyLab,2022
+P0100,polyethylene,30300.0,214.7,GT-PolyLab,2021
+P0088,polyethylene,48100.0,204.8,UF-MatLab,2020
+P0215,polyimide,42900.0,550.7,GT-PolyLab,2023
+P0122,poly(lactic acid),72700.0,309.9,MIT-ChemE,2019
+P0161,polycarbonate,33800.0,438.8,MIT-ChemE,2019
+P0021,polystyrene,79500.0,131.7,GT-PolyLab,2023
+P0189,polycarbonate,10300.0,427.6,GT-PolyLab,2020
+P0072,poly(methyl methacrylate),78900.0,361.6,MIT-ChemE,2021
+P0107,polyethylene,45200.0,203.3,MIT-ChemE,2022
+P0271,poly(vinyl alcohol),18800.0,338.8,MIT-ChemE,2023
+P0103,polyethylene,58700.0,201.8,CMU-MatSci,2023
