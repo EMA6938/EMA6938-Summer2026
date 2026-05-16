@@ -45,3 +45,6 @@ feedback/
 
 # ── Conda environment (environment.yml is tracked; the env folder is not) ─────
 /envs/
+
+# - ipynb checkpoints
+.ipynb_checkpoints/
