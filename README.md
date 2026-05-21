@@ -24,7 +24,7 @@ EMA6938-Summer2026/
 │
 ├── README.md                  ← You are here
 ├── environment.yml            ← Conda environment (install first)
-├── SETUP_NOTES.md             ← Detailed setup guide + troubleshooting
+├── SETUP.md                   ← Detailed setup guide + troubleshooting
 │
 ├── week01/
 │   ├── week1_starter.ipynb    ← Lab notebook (Parts A–E)
@@ -32,10 +32,10 @@ EMA6938-Summer2026/
 │
 ├── week02/
 │   ├── week2_notebook.ipynb
-│   └── data/
+│   ├── data/
+|   └── structures/
 │
 ├── week03/                    ← ⚠️ 3-lecture week (no live lab)
-│   └── week3_notebook.ipynb
 │
 ├── week04/
 ├── week05/
@@ -44,18 +44,9 @@ EMA6938-Summer2026/
 ├── week08/
 ├── week09/
 ├── week10/
-│   └── week10_mapping_lab.ipynb
-│
 ├── week11/                    ← ⚠️ 3-lecture week — ML case studies
-│   ├── week11_metals_ceramics.ipynb
-│   ├── week11_polymers.ipynb
-│   └── week11_biomaterials.ipynb
-│
 ├── week12/
-│   └── week12_gnn_lab.ipynb
-│
 ├── week13/
-│   └── week13_final_presentations.md
 │
 └── resources/
     ├── mp_api_quickstart.md   ← Materials Project API cheat sheet
@@ -159,7 +150,7 @@ with MPRester(API_KEY) as mpr:
 
 ### Python version
 
-This environment is pinned to **Python 3.10**. Do not upgrade to 3.11 or 3.12 without checking pymatgen and PyG compatibility first.
+This environment is pinned to **Python 3.11**. Do not upgrade to 3.12 without checking pymatgen and PyG compatibility first.
 
 ### GPU support
 
@@ -183,9 +174,9 @@ The `environment.yml` installs PyTorch in CPU-only mode (sufficient for all cour
 | 10 | Feature engineering, model tuning & structure-property mapping | Ch. 16 | Lec 75 + Lab 75 + Day2 75 | Full mapping lab |
 | 11 ⚠️ | ML case studies — metals, ceramics, polymers, biomaterials | Ch. 17 + inst. | 3 × Lec 75 (no live lab) | Take-home: class-specific dataset |
 | 12 | Deep learning & graph neural networks | Ch. 17–18 + inst. | Lec 75 + Lab 75 + Day2 75 | CGCNN with PyG |
-| 13 | Advanced architectures + final presentations | Ch. 19 | Lec 75 + Lab 75 + Day2 75 | Final presentations |
+| 13 | Final presentations |
 
-> ⚠️ Weeks 3 and 10 run three 75-minute lecture sessions instead of the standard format. No live lab session those weeks — notebooks are fully take-home.
+> ⚠️ Weeks 3 and 11 run three 75-minute lecture sessions instead of the standard format. No live lab session those weeks — notebooks are fully take-home.
 
 ---
 
@@ -205,7 +196,7 @@ The `environment.yml` installs PyTorch in CPU-only mode (sufficient for all cour
 
 ## 🛠️ Troubleshooting
 
-**See `SETUP_NOTES.md`** for a full troubleshooting guide covering the most common issues:
+**See `SETUP.md`** for a full troubleshooting guide covering the most common issues:
 
 - `conda activate` failing on Windows
 - `mp-api` import errors
@@ -214,7 +205,7 @@ The `environment.yml` installs PyTorch in CPU-only mode (sufficient for all cour
 - pymatgen install conflicts
 - PyG install errors (Week 12)
 
-**Still stuck?** Post in the **"Week N Setup Help"** discussion thread on Canvas. The instructor checks daily during the first two weeks. Classmates are encouraged to help.
+**Still stuck?** Post in the **"General Course Questions"** discussion thread on Canvas. The instructor checks daily during the first two weeks. Classmates are encouraged to help.
 
 ---
 
@@ -247,4 +238,4 @@ Course materials in this repository are provided for enrolled students in EMA 69
 
 ---
 
-*Last updated: 05/07/2026 · Questions? Post on Canvas or email prajakatta@ufl.edu*
+*Last updated: 05/21/2026 · Questions? Post on Canvas or email prajakatta@ufl.edu*
