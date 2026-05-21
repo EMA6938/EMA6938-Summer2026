@@ -49,5 +49,4 @@ dependencies:
     # Visualization
     - plotly>=5.0
 
-    # PyTorch Geometric — installed separately in Week 12
     # See SETUP.md for instructions
