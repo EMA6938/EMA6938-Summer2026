@@ -64,3 +64,6 @@ feedback/
 # - ipynb checkpoints
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+package.json
+package-lock.json
+node_modules/
