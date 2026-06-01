@@ -6,6 +6,10 @@ dependencies:
   # Core Python
   - python=3.11
 
+  # Compatibility fixes
+  - setuptools==69.5.1
+  - wheel
+
   # Numerical & Data Analysis
   - numpy>=1.21
   - pandas>=1.3
