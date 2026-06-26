@@ -50,6 +50,9 @@ dependencies:
     - shap>=0.42
     - xgboost>=1.7
 
+    # Class Imbalance Handling
+    - imbalanced-learn>=0.10
+
     # Visualization
     - plotly>=5.0
 
