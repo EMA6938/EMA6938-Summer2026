@@ -1,4 +1,4 @@
-# EMA 6938 — Data Science for Materials
+# EMA 6938 - Data Science for Materials
 ## Environment Setup Guide
 
 This guide covers everything you need to get your environment running: fresh install, verification, API key setup, platform-specific notes, and troubleshooting. Read the section that applies to you. If you hit a problem not covered here, post in the **General Course Questions** discussion thread on Canvas.
@@ -164,7 +164,7 @@ If all packages print versions and the API key is found, your environment is rea
 
 PyTorch Geometric (PyG) is only needed in Week 12 for graph neural networks. Install it **after** the base environment is working and **only when directed** by the Week 12 Canvas module. Installing it early can conflict with the base environment.
 
-### Step 1 — Verify your PyTorch version
+### Step 1 - Verify your PyTorch version
 
 ```python
 import torch
@@ -172,7 +172,7 @@ print(torch.__version__)          # Should be 2.1.x
 print(torch.cuda.is_available())  # False for CPU-only machines
 ```
 
-### Step 2 — Install PyG (CPU version)
+### Step 2 - Install PyG (CPU version)
 
 ```bash
 conda activate matds
@@ -181,7 +181,7 @@ pip install torch_scatter torch_sparse torch_cluster torch_spline_conv \
     -f https://data.pyg.org/whl/torch-2.1.0+cpu.html
 ```
 
-### Step 3 — Verify
+### Step 3 - Verify
 
 ```python
 import torch_geometric
