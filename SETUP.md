@@ -1,4 +1,4 @@
-# EMA 6938 — Data Science for Materials
+# EMA 6938 - Data Science for Materials
 ## Environment Setup Guide
 
 This guide covers everything you need to get your environment running: fresh install, verification, API key setup, platform-specific notes, and troubleshooting. Read the section that applies to you. If you hit a problem not covered here, post in the **General Course Questions** discussion thread on Canvas.
@@ -61,7 +61,7 @@ You should see `(matds)` at the start of your terminal prompt. **Always activate
 
 1. Go to [next.materialsproject.org/api](https://next.materialsproject.org/api) and create a free account
 2. Copy your API key
-3. Create a `.env` file in the repository root — **do not hardcode the key in a notebook:**
+3. Create a `.env` file in the repository root - **do not hardcode the key in a notebook:**
 
 ```bash
 echo "MP_API_KEY=your_actual_key_here" > .env
@@ -118,7 +118,7 @@ conda install -c conda-forge python=3.11 numpy pandas scipy matplotlib seaborn \
 conda install -c conda-forge pymatgen
 
 # pip packages
-pip install mp-api jarvis-tools matminer python-dotenv umap-learn shap xgboost plotly
+pip install mp-api jarvis-tools matminer python-dotenv umap-learn shap xgboost plotly imbalanced-learn
 ```
 
 ---
@@ -132,18 +132,20 @@ import sys, numpy, pandas, matplotlib, sklearn, pymatgen, matminer
 from mp_api.client import MPRester
 from dotenv import load_dotenv
 import umap, shap, xgboost
+import imblearn
 
 packages = {
-    "Python":       sys.version.split()[0],
-    "NumPy":        numpy.__version__,
-    "pandas":       pandas.__version__,
-    "matplotlib":   matplotlib.__version__,
-    "scikit-learn": sklearn.__version__,
-    "pymatgen":     pymatgen.__version__,
-    "matminer":     matminer.__version__,
-    "umap-learn":   umap.__version__,
-    "xgboost":      xgboost.__version__,
-    "shap":         shap.__version__,
+    "Python":          sys.version.split()[0],
+    "NumPy":            numpy.__version__,
+    "pandas":           pandas.__version__,
+    "matplotlib":       matplotlib.__version__,
+    "scikit-learn":     sklearn.__version__,
+    "pymatgen":         pymatgen.__version__,
+    "matminer":         matminer.__version__,
+    "umap-learn":       umap.__version__,
+    "xgboost":          xgboost.__version__,
+    "shap":             shap.__version__,
+    "imbalanced-learn": imblearn.__version__,
 }
 
 print("Package versions:")
@@ -164,7 +166,7 @@ If all packages print versions and the API key is found, your environment is rea
 
 PyTorch Geometric (PyG) is only needed in Week 12 for graph neural networks. Install it **after** the base environment is working and **only when directed** by the Week 12 Canvas module. Installing it early can conflict with the base environment.
 
-### Step 1 — Verify your PyTorch version
+### Step 1 - Verify your PyTorch version
 
 ```python
 import torch
@@ -172,7 +174,7 @@ print(torch.__version__)          # Should be 2.1.x
 print(torch.cuda.is_available())  # False for CPU-only machines
 ```
 
-### Step 2 — Install PyG (CPU version)
+### Step 2 - Install PyG (CPU version)
 
 ```bash
 conda activate matds
@@ -181,7 +183,7 @@ pip install torch_scatter torch_sparse torch_cluster torch_spline_conv \
     -f https://data.pyg.org/whl/torch-2.1.0+cpu.html
 ```
 
-### Step 3 — Verify
+### Step 3 - Verify
 
 ```python
 import torch_geometric
@@ -246,7 +248,7 @@ git push origin main
 
 ### Linux
 
-Standard install works without modification. On a university HPC cluster, use a user-level Anaconda install (`--prefix ~/anaconda3`) rather than a system-wide install — check with your sysadmin first.
+Standard install works without modification. On a university HPC cluster, use a user-level Anaconda install (`--prefix ~/anaconda3`) rather than a system-wide install - check with your sysadmin first.
 
 ---
 
@@ -255,9 +257,9 @@ Standard install works without modification. On a university HPC cluster, use a 
 If you cannot get the local environment working before a lab session, use the Binder link in the Week 1 Canvas module. Binder runs notebooks in a pre-configured cloud environment with all packages installed.
 
 **Limitations:**
-- Sessions time out after ~10 minutes of inactivity — save your work frequently
-- Your MP API key is not stored in Binder — you will need to enter it manually each session
-- Binder is a fallback only — resolve your local install before Week 2
+- Sessions time out after ~10 minutes of inactivity - save your work frequently
+- Your MP API key is not stored in Binder - you will need to enter it manually each session
+- Binder is a fallback only - resolve your local install before Week 2
 
 ---
 
@@ -309,10 +311,27 @@ conda activate matds
 pip install mp-api --upgrade
 ```
 
+### `ModuleNotFoundError: No module named 'imblearn'`
+
+The package name on PyPI is `imbalanced-learn`, but the import statement is `imblearn` — easy to mistype if you guess the pip name from the import.
+
+```bash
+conda activate matds
+pip install imbalanced-learn
+```
+
+If `pip install` is unavailable on your system, use conda instead:
+
+```bash
+conda install -c conda-forge imbalanced-learn
+```
+
+Restart the kernel and re-run the notebook from the top after installing.
+
 ### API key not working (403 error or "API key not found")
 
-- Key activation takes up to 1 hour after registration — wait and retry
-- Check for typos — the key is case-sensitive
+- Key activation takes up to 1 hour after registration - wait and retry
+- Check for typos - the key is case-sensitive
 - Make sure your `.env` file is in the same directory as the notebook (the repository root)
 - Use the Binder fallback in the meantime
 
@@ -379,6 +398,7 @@ If still failing, skip it — `crystal-toolkit` is optional for visualization on
 | umap-learn | ≥0.5 | Dimensionality reduction | Week 9 |
 | shap | ≥0.42 | Model interpretation | Week 10 |
 | xgboost | ≥1.7 | Gradient boosting | Week 10 |
+| imbalanced-learn | ≥0.10 | SMOTE, class imbalance handling | Week 7 |
 | torch-geometric | Latest | Graph neural networks | Week 12 only |
 
 ---
