@@ -1,4 +1,4 @@
-# EMA 6938 — Data Science for Materials
+# EMA 6938 - Data Science for Materials
 
 ** University of Florida · Summer 2026 · Instructor: Prajakatta Mulay**
 
@@ -59,13 +59,13 @@ EMA6938-Summer2026/
 
 ## ⚙️ Setup instructions
 
-### Step 1 — Install Anaconda
+### Step 1 - Install Anaconda
 
 Download and install **Anaconda (Python 3.10+)** from [anaconda.com/download](https://www.anaconda.com/download).
 
 > **Windows users:** After installation, use **Anaconda Prompt** (not PowerShell or cmd) for all commands below.
 
-### Step 2 — Clone this repository
+### Step 2 - Clone this repository
 
 ```bash
 git clone https://github.com/EMA6938/EMA6938-Summer2026.git
@@ -74,7 +74,7 @@ cd EMA6938-Summer2026
 
 Or download the ZIP from GitHub → Code → Download ZIP and extract it.
 
-### Step 3 — Create the course conda environment
+### Step 3 - Create the course conda environment
 
 ```bash
 conda env create -f environment.yml
@@ -82,7 +82,7 @@ conda env create -f environment.yml
 
 This will take 5–10 minutes. It installs all packages needed for the full semester.
 
-### Step 4 — Activate the environment
+### Step 4 - Activate the environment
 
 ```bash
 conda activate matds
@@ -90,7 +90,7 @@ conda activate matds
 
 You should see `(matds)` at the start of your terminal prompt. **Always activate this environment before working on course notebooks.**
 
-### Step 5 — Launch JupyterLab
+### Step 5 - Launch JupyterLab
 
 ```bash
 jupyter lab
@@ -100,7 +100,7 @@ JupyterLab will open in your browser. Navigate to the `week01/` folder and open 
 
 > **Note:** This course uses **JupyterLab** (not the classic Jupyter Notebook interface). Both are installed, but always use `jupyter lab` to launch.
 
-### Step 6 — Register your Materials Project API key
+### Step 6 - Register your Materials Project API key
 
 1. Go to [next.materialsproject.org/api](https://next.materialsproject.org/api)
 2. Create a free account and copy your API key
@@ -122,7 +122,7 @@ API_KEY = os.getenv("MP_API_KEY")
 
 > **API key takes up to 1 hour to activate after registration.** Use the Binder fallback link (see `resources/binder_fallback.md`) in the meantime during Week 1.
 
-### Step 7 — Week 12 only: Install PyTorch Geometric
+### Step 7 - Week 12 only: Install PyTorch Geometric
 
 PyTorch Geometric (PyG) is used in Week 12 for graph neural networks. It requires a separate install step after the base environment is set up, because the correct version depends on your OS and whether you have a GPU.
 
@@ -164,7 +164,7 @@ The `environment.yml` installs PyTorch in CPU-only mode (sufficient for all cour
 |------|-------|----------|--------|-----|
 | 1 | Introduction to materials data science | Ch. 1–2 | Lec 75 + Lab 75 + Day2 75 | Python primer, MP API |
 | 2 | Data representation & experimental design | Ch. 3–4 | Lec 75 + Lab 75 + Day2 75 | MP API, CIF/POSCAR, exp. data |
-| 3 ⚠️ | Probability, statistics & distributions | Ch. 5–8 | 3 × Lec 75 (no live lab) | Take-home: statistical analysis |
+| 3 | Probability, statistics & distributions | Ch. 5–8 | 3 × Lec 75 (no live lab) | Take-home: statistical analysis |
 | 4 | Exploratory data analysis | Ch. 9–10 | Lec 75 + Lab 75 + Day2 75 | EDA on MP dataset |
 | 5 | ML foundations + tree-based models | Ch. 11 + inst. | Lec 75 + Lab 75 + Day2 75 | Random forest pipeline |
 | 6 | Regression & predictive modeling | Ch. 12–13 | Lec 75 + Lab 75 + Day2 75 | Formation energy regression |
@@ -172,17 +172,17 @@ The `environment.yml` installs PyTorch in CPU-only mode (sufficient for all cour
 | 8 | Classification methods | Ch. 14 | Lec 75 + Lab 75 + Day2 75 | Phase stability classification |
 | 9 | PCA, dimensionality reduction & clustering | Ch. 15 | Lec 75 + Lab 75 + Day2 75 | UMAP on MP oxides |
 | 10 | Feature engineering, model tuning & structure-property mapping | Ch. 16 | Lec 75 + Lab 75 + Day2 75 | Full mapping lab |
-| 11 ⚠️ | ML case studies — metals, ceramics, polymers, biomaterials | Ch. 17 + inst. | 3 × Lec 75 (no live lab) | Take-home: class-specific dataset |
+| 11 | ML case studies — metals, ceramics, polymers, biomaterials | Ch. 17 + inst. | 3 × Lec 75 (no live lab) | Take-home: class-specific dataset |
 | 12 | Deep learning & graph neural networks | Ch. 17–18 + inst. | Lec 75 + Lab 75 + Day2 75 | CGCNN with PyG |
 | 13 | Final presentations |
 
-> ⚠️ Weeks 3 and 11 run three 75-minute lecture sessions instead of the standard format. No live lab session those weeks — notebooks are fully take-home.
+> ⚠️ Weeks 3 and 11 run three 75-minute lecture sessions instead of the standard format. No live lab session those weeks - notebooks are fully take-home.
 
 ---
 
 ## 📝 Assignments & submission
 
-**All assignments are submitted via Canvas — not GitHub.**
+**All assignments are submitted via Canvas - not GitHub.**
 
 | Assignment | Weight | Due |
 |---|---|---|
