@@ -6,10 +6,6 @@ dependencies:
   # Core Python
   - python=3.11
 
-  # Compatibility fixes
-  - setuptools==69.5.1
-  - wheel
-
   # Numerical & Data Analysis
   - numpy>=1.21
   - pandas>=1.3
@@ -50,11 +46,14 @@ dependencies:
     - shap>=0.42
     - xgboost>=1.7
 
-    # Class Imbalance Handling
+    # Class imbalance handling (Week 8)
     - imbalanced-learn>=0.10
+
+    # Cheminformatics - Morgan fingerprints for polymer ML (Week 11)
+    - rdkit>=2023.03
 
     # Visualization
     - plotly>=5.0
 
-    # PyTorch Geometric — installed separately in Week 12
+    # PyTorch Geometric - installed separately in Week 12
     # See SETUP.md for instructions

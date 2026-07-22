@@ -23,7 +23,7 @@ A conda environment named `matds` containing Python 3.11, all data science and m
 
 Download **Anaconda (Python 3.11+)** from [anaconda.com/download](https://www.anaconda.com/download) and run the installer.
 
-> **Windows users:** After installation, use **Anaconda Prompt** (from the Start Menu) for all commands below — not PowerShell, not Git Bash, not Windows Terminal unless you have run `conda init` for it.
+> **Windows users:** After installation, use **Anaconda Prompt** (from the Start Menu) for all commands below - not PowerShell, not Git Bash, not Windows Terminal unless you have run `conda init` for it.
 
 ### 2. Clone the repository
 
@@ -118,7 +118,7 @@ conda install -c conda-forge python=3.11 numpy pandas scipy matplotlib seaborn \
 conda install -c conda-forge pymatgen
 
 # pip packages
-pip install mp-api jarvis-tools matminer python-dotenv umap-learn shap xgboost plotly imbalanced-learn
+pip install mp-api jarvis-tools matminer python-dotenv umap-learn shap xgboost plotly imbalanced-learn rdkit
 ```
 
 ---
@@ -133,6 +133,7 @@ from mp_api.client import MPRester
 from dotenv import load_dotenv
 import umap, shap, xgboost
 import imblearn
+from rdkit import Chem
 
 packages = {
     "Python":          sys.version.split()[0],
@@ -146,6 +147,7 @@ packages = {
     "xgboost":          xgboost.__version__,
     "shap":             shap.__version__,
     "imbalanced-learn": imblearn.__version__,
+    "rdkit":            Chem.rdBase.rdkitVersion,
 }
 
 print("Package versions:")
@@ -155,7 +157,7 @@ for pkg, ver in packages.items():
 load_dotenv()
 import os
 key = os.getenv("MP_API_KEY")
-print(f"\nMP API key: {'✓ Loaded' if key else '✗ Not found — check your .env file'}")
+print(f"\nMP API key: {'✓ Loaded' if key else '✗ Not found - check your .env file'}")
 ```
 
 If all packages print versions and the API key is found, your environment is ready for the full semester.
@@ -248,7 +250,7 @@ git push origin main
 
 ### Linux
 
-Standard install works without modification. On a university HPC cluster, use a user-level Anaconda install (`--prefix ~/anaconda3`) rather than a system-wide install - check with your sysadmin first.
+Standard install works without modification. On a university HPC cluster, use a user-level Anaconda install (`--prefix ~/anaconda3`) rather than a system-wide install — check with your sysadmin first.
 
 ---
 
@@ -328,10 +330,27 @@ conda install -c conda-forge imbalanced-learn
 
 Restart the kernel and re-run the notebook from the top after installing.
 
+### `ModuleNotFoundError: No module named 'rdkit'`
+
+RDKit is best installed via conda rather than pip — the pip version can have dependency conflicts on some platforms:
+
+```bash
+conda activate matds
+conda install -c conda-forge rdkit
+```
+
+If you prefer pip:
+
+```bash
+pip install rdkit
+```
+
+Restart the kernel after installing.
+
 ### API key not working (403 error or "API key not found")
 
 - Key activation takes up to 1 hour after registration - wait and retry
-- Check for typos - the key is case-sensitive
+- Check for typos — the key is case-sensitive
 - Make sure your `.env` file is in the same directory as the notebook (the repository root)
 - Use the Binder fallback in the meantime
 
@@ -375,7 +394,7 @@ Safe to ignore. These are upstream warnings in numba, not errors.
 pip install crystal-toolkit --upgrade
 ```
 
-If still failing, skip it — `crystal-toolkit` is optional for visualization only and not required for any graded work.
+If still failing, skip it - `crystal-toolkit` is optional for visualization only and not required for any graded work.
 
 ---
 
@@ -396,9 +415,10 @@ If still failing, skip it — `crystal-toolkit` is optional for visualization on
 | matminer | ≥2023.1 | Composition featurizers | Week 4+ |
 | python-dotenv | ≥0.19 | API key management | Week 1+ |
 | umap-learn | ≥0.5 | Dimensionality reduction | Week 9 |
-| shap | ≥0.42 | Model interpretation | Week 10 |
-| xgboost | ≥1.7 | Gradient boosting | Week 10 |
-| imbalanced-learn | ≥0.10 | SMOTE, class imbalance handling | Week 7 |
+| shap | ≥0.42 | Model interpretation | Week 11 |
+| xgboost | ≥1.7 | Gradient boosting | Week 11 |
+| imbalanced-learn | ≥0.10 | SMOTE, class imbalance handling | Week 8 |
+| rdkit | ≥2023.03 | Morgan fingerprints for polymer ML | Week 11 |
 | torch-geometric | Latest | Graph neural networks | Week 12 only |
 
 ---
